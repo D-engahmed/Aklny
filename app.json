@@ -1,12 +1,7 @@
 {
   "expo": {
-<<<<<<< HEAD
     "name": "Aklny",
-    "slug": "Aklny",
-=======
-    "name": "AKlny",
-    "slug": "AKlny",
->>>>>>> b90f4a1 (initial commit)
+    "slug": "aklny",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -22,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ahmed_abdallah_mohammed.aklny"
     },
     "web": {
       "output": "static",
@@ -39,7 +35,8 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
